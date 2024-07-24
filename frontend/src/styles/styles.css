@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.titulo {
+  margin: auto;
+  width: 66%;
+  text-align: center;
+  background:black;
+  background-color:yellow;
+}
+
+.button {
+  margin: auto;
+  width: 66%;
+  margin-bottom: 30px;
+}
