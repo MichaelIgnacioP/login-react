@@ -8,8 +8,8 @@ const userRoutes = require('./routes/userRoutes');
 const app = express();
 
 app.use(cors({
-    origin: '*', 
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+    origin: 'http://localhost:3000', 
+    methods: ['GET', 'POST', 'DELETE'], 
 }));
 
 
